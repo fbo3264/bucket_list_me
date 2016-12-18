@@ -1,0 +1,16 @@
+POST /user/bucketlist
+  {
+    "name": "Lista de compras",
+    "description": "para la proxima semana",
+    "entries": [
+    	{"content":"Leche","active":true},{"content":"Exprimidor","active":true},{"content":"Esterilla","active":true}
+    	]
+  }
+
+  {
+    "name": "Weihnachtseinkäufe",
+    "description": "Alle Jahre wieder ...",
+    "entries": [
+      {"content":"Pia: Buch","active":true},{"content":"Papa: Wein","active":true},{"content":"Mama: Halskette","active":true}
+      ]
+  }
